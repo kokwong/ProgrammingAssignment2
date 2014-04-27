@@ -1,14 +1,15 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Author: Ieok Kok Wong
+## Git Profile: https://github.com/kokwong
 
-## Write a short comment describing this function
+
+## makeCacheMatrix is a reference to function which has already loaded with matrix X content into it
 
 makeCacheMatrix <- function(x = matrix()) {
 
 }
 
 
-## Write a short comment describing this function
+## cacheSolve is a reference to function which can generate the Inverse of a Matrix for the first time and look up the cached symbol table for subsequent executions
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
